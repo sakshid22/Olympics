@@ -1,0 +1,68 @@
+ <html>
+<head>
+
+
+<style>
+div.background {
+     width: 1480px;
+     height: 300px;
+     background: url(O3.jpg) ;
+     border: 2px solid black;
+ }
+
+div.transbox {
+     width: 1480px;
+     height: 300px;
+     //margin: 30px 50px;
+     background-color: #ffffff;
+     border: 1px solid black;
+     opacity: 0.6;
+     filter: alpha(opacity=60); /* For IE8 and earlier */
+ }
+
+div.transbox p {
+     margin: 70px 90px;
+     font-weight: bold;
+     color: #000000;
+ }
+</style>
+</head>
+<body >
+
+
+
+<div class="background">
+   <div class="transbox">
+     <p style="color:black; font-family:Monotype corsiva;font-size:500%;text-align:center">LOGIN ID OF VISITORS</p>
+<p style="text-align:center;font-size:300%">
+<a href="http://localhost/three.html">                 NEXT
+</a>
+</p>
+   </div>
+</div>
+
+
+<form action="page3.php" method="post">
+Citizen_NO         :
+<input type="text" name="citino"/><br> <br>
+Visitor Name       :
+<input type="text" name="vname"/><br> <br>
+Country Name       :
+<input type="text" name="cname" /><br> <br>
+Age                :
+<input type="text" name="age" /><br> <br>
+DOB                :
+<input type="text" name="dob" /><br> <br>
+Gender             :
+<input type="text" name="gender" /><br> <br>
+
+<input type="submit" value="submit" /><br> <br>
+</form>
+
+
+</body>
+</html> 
+
+
+
+
